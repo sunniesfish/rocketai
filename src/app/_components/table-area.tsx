@@ -168,7 +168,9 @@ export default function SajuTable() {
         {/* Row 5 */}
         <TableCell isLabel borderRight="border-r-[1.05px] border-r-black">
           <div className="flex flex-col items-center">
-            <span className="text-xs xs:text-[12px] font-bold">十二運星</span>
+            <span className="text-[9px] xs:text-[12px] font-bold">
+              十二運星
+            </span>
             <span className="text-xxxs xs:text-[8px]">(십이운성)</span>
           </div>
         </TableCell>
@@ -200,7 +202,9 @@ export default function SajuTable() {
         {/* Row 6 */}
         <TableCell isLabel borderRight="border-r-[1.05px] border-r-black">
           <div className="flex flex-col items-center">
-            <span className="text-xs xs:text-[12px] font-bold">十二神殺</span>
+            <span className="text-[9px] xs:text-[12px] font-bold">
+              十二神殺
+            </span>
             <span className="text-xxxs xs:text-[8px]">(십이신살)</span>
           </div>
         </TableCell>

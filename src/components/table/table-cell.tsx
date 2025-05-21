@@ -25,7 +25,7 @@ export default function TableCell({
   return (
     <div
       className={`
-        flex items-center justify-center xs:p-[5.52px]
+        flex items-center justify-center p-[7%]
         ${borderStyles}
         ${isHeader ? "font-bold text-sm xs:text-[20px]" : ""}
         ${isLabel ? "text-[12px]" : ""}

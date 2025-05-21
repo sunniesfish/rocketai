@@ -28,7 +28,7 @@ export default function CellCard({
 
   return (
     <div
-      className={`w-full h-full max-w-[55.45px] max-h-[55.45px] rounded-[12.55px] flex flex-col items-center justify-around ${getBgColor()}`}
+      className={` h-full w-full aspect-square  rounded-[22%] flex flex-col items-center justify-around ${getBgColor()}`}
     >
       {topChar && (
         <div className="text-xxxs xs:text-xxs text-center mt-[1.5px]">
