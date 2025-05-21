@@ -1,1 +1,1 @@
-# rocketai
+# 로봇AI
