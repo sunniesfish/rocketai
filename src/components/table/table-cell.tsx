@@ -18,7 +18,6 @@ export default function TableCell({
   borderRight = "border-r-[0.49px] border-r-black",
   borderBottom = "border-b-[1.05px] border-b-black",
 }: TableCellProps) {
-  // Combine all border styles
   const borderStyles = `${borderRight == "none" ? "" : borderRight} ${
     borderBottom == "none" ? "" : borderBottom
   }`;
