@@ -5,7 +5,14 @@ import { Line } from "../../components/line";
 export function Background() {
   return (
     <div className="relative">
-      <Image src={bg} alt="bg" width={750} height={4162} layout="responsive" />
+      <Image
+        src={bg}
+        alt="bg"
+        width={750}
+        height={4162}
+        layout="responsive"
+        priority
+      />
       <Line
         positionX={35}
         positionY={33.3}
