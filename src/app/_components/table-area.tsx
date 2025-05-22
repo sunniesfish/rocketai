@@ -60,7 +60,7 @@ export default function SajuTable() {
             <span className="text-xxxs xs:text-[8px]">(천간)</span>
           </div>
         </TableCell>
-        <TableCell>
+        <TableCell borderBottom="border-b-[0.52px] border-b-black">
           <CellCard
             mainChar="壬"
             topChar="임"
@@ -68,7 +68,7 @@ export default function SajuTable() {
             bgColor="black"
           />
         </TableCell>
-        <TableCell>
+        <TableCell borderBottom="border-b-[0.52px] border-b-black">
           <CellCard
             mainChar="丁"
             topChar="정"
@@ -76,7 +76,7 @@ export default function SajuTable() {
             bgColor="red"
           />
         </TableCell>
-        <TableCell>
+        <TableCell borderBottom="border-b-[0.52px] border-b-black">
           <CellCard
             mainChar="癸"
             topChar="계"
@@ -84,7 +84,7 @@ export default function SajuTable() {
             bgColor="black"
           />
         </TableCell>
-        <TableCell>
+        <TableCell borderBottom="border-b-[0.52px] border-b-black">
           <CellCard
             mainChar="癸"
             topChar="계"

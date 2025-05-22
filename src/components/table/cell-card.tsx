@@ -28,14 +28,14 @@ export default function CellCard({
 
   return (
     <div
-      className={` h-full w-full aspect-square  rounded-[22%] flex flex-col items-center justify-around ${getBgColor()}`}
+      className={` h-full w-full aspect-square  rounded-[22%] flex flex-col items-center justify-evenly ${getBgColor()}`}
     >
       {topChar && (
-        <div className="text-xxxs xs:text-xxs text-center mt-[1.5px]">
-          {topChar}
-        </div>
+        <div className="text-xxxs xs:text-xxs text-center">{topChar}</div>
       )}
-      <div className="text-lg xs:text-xl font-bold text-center">{mainChar}</div>
+      <div className="text-lg xs:text-xl font-bold text-center leading-5">
+        {mainChar}
+      </div>
       {bottomChar && (
         <div className="text-xxs xs:text-xs text-center">{bottomChar}</div>
       )}

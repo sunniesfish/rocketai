@@ -27,8 +27,8 @@ export default function TableCell({
       className={`
         flex items-center justify-center p-[7%]
         ${borderStyles}
-        ${isHeader ? "font-bold text-sm xs:text-[20px]" : ""}
-        ${isLabel ? "text-[12px]" : ""}
+        ${isHeader ? "font-bold text-sm xs:text-xl" : ""}
+        ${isLabel ? "text-sm" : ""}
         ${!isLabel && !isHeader ? "bg-white" : ""}
         ${className}
       `}
